@@ -810,7 +810,7 @@ if c2x(RCVTINPW) = "0000000000000000" then
   say "RVARY STATUS password DES hash:" c2x(RCVTINPW)
  end
 if FoundSWPW = 1 | FoundINPW = 1 then do
- say "RVARY cracking input john and hashcat:"
+ say "RVARY cracking input John and hashcat:"
  if FoundSWPW = 1 then
   say "SWITCH:"||"$rvary$"||c2x(RCVTSWPW)
   say "$racf$*USER*"||c2x(RCVTSWPW)
