@@ -813,10 +813,10 @@ if FoundSWPW = 1 | FoundINPW = 1 then do
  say "RVARY cracking hashes for John and hashcat:"
  if FoundSWPW = 1 then
   say "SWITCH:"||"$rvary$"||c2x(RCVTSWPW)
-  say "$racf$*USER*"||c2x(RCVTSWPW)
+  say "$racf$*SWITCH*"||c2x(RCVTSWPW)
  if FoundINPW = 1 then
   say "STATUS:"||"$rvary$"||c2x(RCVTINPW)
-  say "$racf$*USER*"||c2x(RCVTINPW)
+  say "$racf$*STATUS*"||c2x(RCVTINPW)
 end
 say ""
 /* Get password and other related settings */
